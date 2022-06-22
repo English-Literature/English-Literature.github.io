@@ -1,0 +1,46 @@
+body {
+background-color:#a8e6e6;  
+}
+
+p {
+    color: #2f4040;
+}
+h2 {
+    color: #2f4040;
+}
+h1 {
+    color: #2f4040;
+}
+a{
+    text-align: center;
+}
+a:link {
+  color: #3e5959;
+  background-color: #74cccc;
+  text-decoration: none;
+}
+a:visited {
+  color: #4c7474;
+  background-color: #74cccc;
+  text-decoration: none;
+}
+a:hover {
+  color: #dbfdfd;
+  background-color: #74cccc;
+  text-decoration: underline;
+}
+a:active {
+  color: #4c7474;
+  background-color: #74cccc;
+  text-decoration: underline;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #74cccc;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.flex-container > div {
+    margin: 10px;
+}
